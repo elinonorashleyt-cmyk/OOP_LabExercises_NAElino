@@ -1,0 +1,5 @@
+public class InclusiveEducation extends EducationType {
+    public InclusiveEducation(int numberOfStudents, String location) {
+        super("Inclusive Education", numberOfStudents, location, "Inclusion for all learners");
+    }
+}

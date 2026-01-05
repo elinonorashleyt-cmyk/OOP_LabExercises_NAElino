@@ -1,0 +1,5 @@
+public class OnlineLearning extends LearningMode {
+    public OnlineLearning(int numberOfStudents, String location) {
+        super("Online Learning", numberOfStudents, location, "Online");
+    }
+}

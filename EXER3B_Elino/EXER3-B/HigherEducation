@@ -1,0 +1,5 @@
+public class HigherEducation extends EducationLevel {
+    public HigherEducation(int numberOfStudents, String location) {
+        super("Higher Education", numberOfStudents, location, 4);
+    }
+}

@@ -1,0 +1,5 @@
+public class EquitableEducation extends EducationType {
+    public EquitableEducation(int numberOfStudents, String location) {
+        super("Equitable Education", numberOfStudents, location, "Equal opportunities for all");
+    }
+}

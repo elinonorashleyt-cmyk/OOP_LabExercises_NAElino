@@ -1,0 +1,14 @@
+public class EducationType extends EducationSystem {
+    protected String focus;
+
+    public EducationType(String name, int numberOfStudents, String location, String focus) {
+        super(name, numberOfStudents, location);
+        this.focus = focus;
+    }
+
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Focus: " + focus);
+    }
+}
