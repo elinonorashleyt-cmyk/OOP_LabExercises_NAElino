@@ -1,0 +1,6 @@
+public class Motorcycle extends LandTransport {
+    public Motorcycle(int capacity, int wheels) {
+        super("Motorcycle", capacity, wheels);
+    }
+}
+

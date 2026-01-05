@@ -1,0 +1,6 @@
+public class Airplane extends AirTransport {
+    public Airplane(int capacity, int maxAltitude) {
+        super("Airplane", capacity, maxAltitude);
+    }
+}
+

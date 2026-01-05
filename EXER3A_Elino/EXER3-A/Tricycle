@@ -1,0 +1,6 @@
+
+public class Tricycle extends LandTransport {
+    public Tricycle(int capacity, int wheels) {
+        super("Tricycle", capacity, wheels);
+    }
+}
